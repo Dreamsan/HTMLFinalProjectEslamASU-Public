@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\css files\headerfooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\css files\styleforslideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\css files\ayman.css">
+</head>
+<header>
+    <a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Index.html"><img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\images\bookgroup2.webp" class="logo"> </a>
+    <h2> BookStoreJo</h2>
+    <div class="navmenu"> 
+            <a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Index.html"><button class="btn">Home</button></a>
+            <a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Other Pages\About.html"><button class="btn">About</button></a>
+            <a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Other Pages\Pricing.html"><button class="btn">Pricing</button></a>
+            <a href="mailto:SeifIbrahim@gmail.com"><button class="btn">Contact</button></a>
+        </div>
+<div class="topnav">
+    <input type="text" placeholder="Search..">
+</div>
+        
+</header>
+<body>
+
+
+
+  <!--image slider start-->
+  <div class="slider">
+    <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+            <a href=""><img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\images\sliderimg1.PNG" alt="1"> </a>
+        </div>
+        <div class="slide">
+            <a href=""><img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\images\sliderimg2.PNG" alt="2"></a>
+        </div>
+        <div class="slide">
+            <a href=""><img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\images\childrens-books-slider-1920x500-50q-1200x313.webp" alt="3"></a>
+        </div>
+        <div class="slide">
+            <a href=""><img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\images\holiday-books-slider-1920x500-50q.webp" alt="4"></a>
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+</div>
+
+
+<!--image slider end-->
+<img src="/image/letter-bg.jpg" alt="">
+<section class="icons-container">
+
+    <div class="icons">
+        <i class=" fas fa-plane"></i>
+
+        <div class="content">
+            <h1>free shipping
+            </h1>
+            <p>order over 50$</p>
+
+        </div>
+    </div>
+
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+
+        <div class="content">
+            <h1>secure payment</h1>
+            <p>100 secure payment</p>
+
+        </div>
+    </div>
+
+
+    <div class="icons">
+        <i class="fas fa-rotate-right"></i>
+        <div class="content">
+            <h1>easy returns</h1>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headphones"></i>
+        <div class="content">
+            <h1>24/7 support</h1>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured books</span></h1>
+
+    <div class=" swiper featured-slider">
+
+        <div class=" swiper-wrapper">
+
+            <div class="swiper-slide box">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn" >add to card</a>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide  box">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+
+            </div>
+
+
+            <!-- <div class="swiper-slidebox">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+
+            </div> -->
+
+
+
+            <div class="swiper-slide  box">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+
+            </div>
+
+
+
+            <div class="swiper-slide  box">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="swiper-slide  box">
+
+                <div class="icons">
+                    <a href="#" class=" fas fa-search"></a>
+                    <a href="#" class=" fas fa-heart"></a>
+                    <a href="#" class=" fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> featured books </h3>
+                    <div class="price">$15.00 --<span> 20.00 </span></div>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+    <form action="">
+        <h3> subscribe for latest updates </h3>
+        <input type="email" name="" placeholder="enter your email" id="">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+
+</section>
+
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading "><span>new arrivals</span></h1>
+
+    <div class="arrivals-slider">
+
+        <div class="wraper">
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-10.png" alt="">
+
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.00</div>
+                    <div class="starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-9.png" alt="">
+
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.00</div>
+                    <div class="starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\aymanimages\book-8.png" alt="">
+
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.00</div>
+                    <div class="starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                    
+                </div>
+            </a>
+
+        </div>
+        <a href="https://www.uv.es/vguillem/TheLawofLove.pdf" class="book"></a>
+
+    </div>
+</section>
+
+
+
+<script src="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\js\script.js"></script>
+</body>
+
+<footer>
+    <h1 class="footerlinks">Quick Links</h1>
+    <ul class="footersubs">
+    <li><a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Index.html">Home</a></li>
+    <li><a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Other Pages\About.html">About</a></li>
+    <li><a href="mailto:SeifIbrahim@gmail.com">Contact</a></li>
+    <li><a href="C:\Users\sief3\Documents\GitHub\Htmlfinalproject\WebDevProj\Other Pages\Pricing.html">Pricings</a></li>
+    <li><a href="">FAQ</a></li>
+</ul>
+    <h1 class="footerlinks">Social Media</h1>
+    <ul class="footersubs">
+        
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Twitter</a></li>
+    </ul>
+
+    <p>&copy; Copyright Reserved:BookStoreJO (ASU)</p>
+</footer>
+
+
+
+</html>
+
